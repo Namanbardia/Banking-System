@@ -67,4 +67,4 @@ if 'account' in st.session_state:
                 st.success("PIN changed successfully!!!")
 
     elif choice == "Exit":
-        st.write("Thank You {name}")
+        st.write(f"Thank You {name}")
